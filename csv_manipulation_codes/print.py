@@ -1,0 +1,5 @@
+print('eh')
+print('ehh')
+print('ehhh')
+print('ehhhh')
+print('ehhhhh')

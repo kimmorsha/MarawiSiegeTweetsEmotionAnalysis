@@ -1,0 +1,10 @@
+# -*- coding: utf-8 -*-
+
+import csv
+import string
+import pandas as pd
+
+def count_number_of_rows(filename):
+	sum = sum(1 for line in pd.read_csv(filename))
+
+count_number_of_rows('..')
